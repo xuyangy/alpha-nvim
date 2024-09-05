@@ -32,7 +32,7 @@ local function button(sc, txt, keybind, keybind_opts)
 
     local opts = {
         position = "left",
-        shortcut = "[" .. sc .. "] ",
+        shortcut = "[" .. sc .. "]" .. (#sc == 1 and "  " or (#sc == 2 and " " or "")),
         cursor = 1,
         -- width = 50,
         align_shortcut = "left",
