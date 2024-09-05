@@ -187,7 +187,7 @@ local section = {
             {
                 type = "group",
                 val = function()
-                    return { mru(10) }
+                    return { mru(20) }
                 end,
             },
         },
